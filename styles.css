@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #00fff2;
+}
+
+/* Estilos del Header */
+header {
+    background-color: #00ff08;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav a {
+    color: rgb(255, 252, 252);
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration:underline
+}
+
+/* Estilo seccion hero */
+.hero{
+    background: url('Mascota\ 6.webp') no-repeat center center/cover;
+    color: #050505;
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+}
+
+.hero .overlay {
+    background-color: #66fdf6;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.button {
+    background-color: #00ffbf;
+    color: rgb(252, 249, 249);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #5bccf8;
+}
+
+/* Features */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #50ee58;
+}
+.features .feature {
+    text-align: center;
+    width: 30%;
+}
+
+/* Contacto */
+.contact-main {
+    background: url(Mascota\ 5.jpg) no-repeat center center/cover;
+    color: rgb(10, 10, 10);
+    padding: 50px 20px;
+    position: relative;
+}
+
+.form-section {
+    background: rgba(255, 255, 255, 0.9); /*semi-transparent backgroup */
+    color: #35c6eb; /* Text color */
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-section label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+ .form-section input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #2eeba2;
+    border-radius: 4px;
+}
+
+ /* Galeria */
+ .gallery .grid-2-colunms {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+ .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background: #06e965;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
